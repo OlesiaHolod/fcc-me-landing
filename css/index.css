@@ -1,3 +1,8 @@
+body {
+    display: block;
+    margin: 10px;
+    background-color: blanchedalmond;
+}
 #header {
     margin: 25px;
     display: flex;
@@ -8,6 +13,7 @@
 }
 #header-img {
     max-width: 300px;
+    padding-left: 25px;
 }
 nav {
     display: block;
@@ -16,7 +22,7 @@ nav {
     text-decoration-line: none;
     color: black;
     padding-right: 70px;
-} 
+}
 main {
     display: block;
 }
@@ -25,7 +31,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-} 
+}
 .container-title {
     font-weight: 600;
     text-align: center;
@@ -42,19 +48,14 @@ main {
     flex-direction: column;
     align-items: center;
 }
-.icon-body {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+:root {
+    font-family: 'Lato', sans-serif;
 }
-.video-content {
+.pictures {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-:root {
-    font-family: 'Lato', sans-serif;
 }
 .product {
     display: flex;
@@ -64,6 +65,7 @@ main {
     width: 100%;
     margin-top: 50px;
 }
+
 .price-content {
     display: flex;
     flex-direction: column;
@@ -81,7 +83,7 @@ main {
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    width:100%;
+    width: 100%;
 }
 h3 {
     text-align: center;
@@ -147,6 +149,12 @@ p {
     text-decoration-line: none;
     padding-right: 15px;
 }
+.footer-copyright {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 12px;
+    margin: 0;
+}
 script {
     display: none;
-} 
+}
