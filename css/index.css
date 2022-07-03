@@ -1,8 +1,9 @@
 body {
     display: block;
     margin: 10px;
-    background-color: blanchedalmond;
+    background-color: rgba(0, 110, 255, 0.322);
 }
+
 #header {
     margin: 25px;
     display: flex;
@@ -39,121 +40,14 @@ main {
 .submit-btn {
     text-align: center;
 }
-.container-features {
-    display: flex;
-    flex-direction: column;
-}
-.features {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 :root {
     font-family: 'Lato', sans-serif;
 }
-.pictures {
+.video {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.product {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 50px;
-}
-
-.price-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 25%;
-    height: 100%;
-    border: 1px solid black;
-}
-.price__content-title {
-    background-color: rgb(218, 218, 218);
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-}
-h3 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 0 auto;
-    padding: 15px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-ol {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    display: block;
-    list-style-type: decimal;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-li {
-    list-style-type: none;
-    padding: 5px;
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.table__content-btn {
-    background-color: orange;
-    cursor: pointer;
-    padding: 8px 16px;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-#footer {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(204, 204, 204);
-    height: 80px;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 40px;
-}
-.footer__links {
-    text-align: right;
-    margin-top: 20px;
-}
-.footer__links-link {
-    color: black;
-    font-size: 14px;
-    text-decoration-line: none;
-    padding-right: 15px;
-}
-.footer-copyright {
-    font-size: 12px;
-    text-align: right;
-    padding-right: 12px;
-    margin: 0;
 }
 script {
     display: none;
